@@ -26,8 +26,39 @@ A web-based Student Management System built using **Python**, **Flask**, **HTML*
 ---
 
 ## 📁 Folder Structure
-
-<pre> ``` student-management-system/ ├── static/ │ └── style.css ├── templates/ │ ├── dashboard.html │ ├── edit.html │ ├── index.html │ ├── login.html │ └── students.html ├── images/ │ └── dashboard.png ├── auth.py ├── dashboard.py ├── database.py ├── main.py ├── students.py ├── requirements.txt ├── README.md └── database.db ``` </pre>
+'''
+C:.
+¦   auth.py
+¦   dashboard.py
+¦   database.db
+¦   database.py
+¦   main.py
+¦   README.md
+¦   requirements.txt
+¦   structure.txt
+¦   students.py
+¦   students_export.xlsx
+¦   tree.txt
+¦   
++---images
+¦       Screenshot 2025-06-16 125442.png
+¦       Screenshot 2025-06-16 125515.png
+¦       Screenshot 2025-06-16 125537.png
+¦       Screenshot 2025-06-16 125555.png
+¦       Screenshot 2025-06-16 130716.png
+¦       
++---static
+¦       image.png
+¦       style.css
+¦       
++---templates
+¦       dashboard.html
+¦       edit.html
+¦       index.html
+¦       login.html
+¦       students.html
+¦       
+'''
 
 
 ## 🔧 Installation
