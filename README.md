@@ -26,28 +26,7 @@ A web-based Student Management System built using **Python**, **Flask**, **HTML*
 ---
 
 ## 📁 Folder Structure
-
-student-management-system/
-│
-├──  static/
-│   └── style.css
-│
-├──  templates/
-│   ├──  login.html
-│   ├──  index.html
-│   ├──  students.html
-│   └──  edit.html
-│
-├── images/
-│   └── dashboard.png
-│
-├── auth.py
-├── students.py
-├── database.py
-├── main.py
-└── README.md
-
-
+<pre><code>```text student-management-system/ │ ├── static/ │ └── style.css ├── templates/ │ ├── login.html │ ├── index.html │ ├── students.html │ └── edit.html ├── images/ │ ├── login.png │ └── dashboard.png │ ├── auth.py ├── students.py ├── database.py ├── main.py ├── requirements.txt └── README.md ```</code></pre>
 
 ## 🔧 Installation 
 
@@ -71,7 +50,7 @@ Username: admin
 Password: admin123
 You can change this in auth.py.
 
-##📤 Export Functions
+📤 Export Functions
 PDF: Uses xhtml2pdf
 Excel: Uses pandas
 
