@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Student Management System 🧑‍🎓
 
 A web-based Student Management System built using **Python**, **Flask**, **HTML**, **CSS**, and **SQLite**. It allows an admin to manage student records efficiently with functionality like add, edit, delete, search, export (PDF/Excel), and view dashboard analytics.
@@ -56,14 +56,17 @@ student-management-system/
    git clone https://github.com/Karripravallika/student-management-system.git
    cd student-management-system
 
-Create a virtual environment (optional but recommended):
+Create a virtual environment (optional but recommended): 
+
 python -m venv venv
 venv\Scripts\activate   # Windows
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 Run the application:
+
 python main.py
 
 🔑 Admin Credentials
@@ -78,22 +81,6 @@ PDF: Uses xhtml2pdf
 Excel: Uses pandas
 
 =======
-# Student Management System
-
-A web-based Student Management System built with Flask, HTML, CSS, and SQLite.
-
-## Features
-- Admin Login
-- Dashboard with stats
-- Add, Edit, Delete, and Search Students
-- Export to Excel or PDF
-
-## Technologies Used
-- Python Flask
-- SQLite
-- HTML5, CSS3
-- Bootstrap (optional)
-
 ## Run Locally
 ```bash
 git clone https://github.com/Karripravallika/student-management-system.git
