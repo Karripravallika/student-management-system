@@ -1,0 +1,327 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* Logout Button - Top Right */
+.logout-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logout-btn {
+  background-color: #ef4444;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+  transform: scale(1.03);
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 0px auto 40px auto;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+/* Heading */
+h2, .heading-highlight {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 240px;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+button,
+input[type="submit"],
+a.button-link {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+input[type="submit"]:hover,
+a.button-link:hover {
+  opacity: 0.95;
+  transform: scale(1.02);
+}
+
+.btn-primary {
+  background-color: #2563eb;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+/* Export Button */
+.export-btn {
+  background-color: #22c55e;
+}
+
+.export-btn:hover {
+  background-color: #16a34a;
+}
+
+/* Action Buttons */
+a.button-link.edit-btn {
+  background-color: #3b82f6;
+}
+
+a.button-link.edit-btn:hover {
+  background-color: #2563eb;
+}
+
+a.button-link.delete-btn {
+  background-color: #ef4444;
+}
+
+a.button-link.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+.button-link {
+  margin-right: 6px;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  table-layout: auto;
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 14px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+tr:hover {
+  background-color: #e0f2fe;
+  transition: background 0.3s ease;
+}
+
+/* Flash Messages */
+.flash {
+  background-color: #22c55e;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  font-weight: bold;
+  animation: fadeOut 2s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+}
+
+/* Login Page */
+/* Animated Background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #1e3a8a, #484d52, #0f172a, #2a3147);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.login-box {
+  background: #f8f9fc;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.login-box h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1b3ea0;
+  margin-bottom: 30px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+  background-color: #1d4ed8;
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.dashboard-card {
+  flex: 1 1 300px;
+  background-color: #f0f9ff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.03);
+}
+
+.dashboard-card h3 {
+  font-size: 20px;
+  color: #1d4ed8;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 16px;
+  color: #374151;
+}
+
+/* Dashboard Button */
+.dashboard-btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 14px 26px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dashboard-btn:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}

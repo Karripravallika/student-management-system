@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Logout Button -->
+    <div class="logout-container">
+        <a href="{{ url_for('auth_bp.logout') }}" class="logout-btn">Logout</a>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h2 class="heading-highlight">Admin Dashboard</h2>
+        <p style="text-align: center;">Welcome, Admin!</p>
+
+        <!-- Dashboard Cards -->
+        <div class="dashboard-container">
+            <div class="dashboard-card">
+                <h3>Total Students</h3>
+                <p>{{ total_students }}</p>
+            </div>
+            <div class="dashboard-card">
+                <h3>Recently Added</h3>
+                <p>{{ recent_students|length }}</p>
+            </div>
+        </div>
+
+        <!-- Manage Students Button -->
+        <div class="dashboard-btn-container">
+            <a href="{{ url_for('student_bp.view_students') }}" class="dashboard-btn">Manage Students</a>
+        </div>
+    </div>
+</body>
+</html>

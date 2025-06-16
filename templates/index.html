@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading-highlight">Welcome to the Student Management System</h2>
+        <p>This application allows the admin to manage student data securely.</p>
+
+        {% if 'admin' in session %}
+            <a href="{{ url_for('student_bp.dashboard') }}" class="btn-primary">Go to Dashboard</a>
+        {% else %}
+            <a href="{{ url_for('auth_bp.login') }}" class="btn-primary">Login as Admin</a>
+        {% endif %}
+    </div>
+</body>
+</html>
