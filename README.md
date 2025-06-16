@@ -34,8 +34,8 @@ A web-based Student Management System built using **Python**, **Flask**, **HTML*
 
 ### Create a virtual environment (optional but recommended): 
 
-python -m venv venv
-venv\Scripts\activate   # Windows
+- python -m venv venv
+- venv\Scripts\activate   # Windows
 
 ### Install dependencies:
 pip install -r requirements.txt
@@ -51,8 +51,8 @@ python main.py
 
 ### 📤 Export Functions
 
-PDF: Uses xhtml2pdf
-Excel: Uses pandas
+- PDF: Uses xhtml2pdf
+- Excel: Uses pandas
 
 =======
 
