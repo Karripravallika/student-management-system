@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Student Management System 🧑‍🎓
 
 A web-based Student Management System built using **Python**, **Flask**, **HTML**, **CSS**, and **SQLite**. It allows an admin to manage student records efficiently with functionality like add, edit, delete, search, export (PDF/Excel), and view dashboard analytics.
@@ -27,27 +27,7 @@ A web-based Student Management System built using **Python**, **Flask**, **HTML*
 
 ## 📁 Folder Structure
 
-'''
-student-management-system/
-├── static/
-│ └── style.css
-├── templates/
-│ ├── dashboard.html
-│ ├── edit.html
-│ ├── index.html
-│ ├── login.html
-│ └── students.html
-├── images/
-│ └── dashboard.png
-├── auth.py
-├── dashboard.py
-├── database.py
-├── main.py
-├── students.py
-├── requirements.txt
-├── README.md
-└── database.db
-'''
+<pre> ``` student-management-system/ ├── static/ │ └── style.css ├── templates/ │ ├── dashboard.html │ ├── edit.html │ ├── index.html │ ├── login.html │ └── students.html ├── images/ │ └── dashboard.png ├── auth.py ├── dashboard.py ├── database.py ├── main.py ├── students.py ├── requirements.txt ├── README.md └── database.db ``` </pre>
 
 
 ## 🔧 Installation
