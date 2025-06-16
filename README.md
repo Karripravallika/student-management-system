@@ -29,23 +29,23 @@ A web-based Student Management System built using **Python**, **Flask**, **HTML*
 
 student-management-system/
 │
-├── ## static/
-│  ### └── style.css
+├──  static/
+│   └── style.css
 │
-├── ## templates/
-│   ├── ### login.html
-│   ├── ### index.html
-│   ├── ### students.html
-│   └── ### edit.html
+├──  templates/
+│   ├──  login.html
+│   ├──  index.html
+│   ├──  students.html
+│   └──  edit.html
 │
-├──## images/
+├── images/
 │   └── dashboard.png
 │
-├──## auth.py
-├──## students.py
-├──## database.py
-├──## main.py
-└──## README.md
+├── auth.py
+├── students.py
+├── database.py
+├── main.py
+└── README.md
 
 
 
@@ -54,16 +54,16 @@ student-management-system/
 1. **Clone the repo**:
    ```bash
    git clone https://github.com/Karripravallika/student-management-system.git
-   cd student-management-system  
+   cd student-management-system
 
-## Create a virtual environment (optional but recommended): 
-python -m venv venv
-venv\Scripts\activate   # Windows
+ Create a virtual environment (optional but recommended): 
+ python -m venv venv
+ venv\Scripts\activate   # Windows
 
-##Install dependencies:
+Install dependencies:
 pip install -r requirements.txt
 
-##Run the application:
+Run the application:
 python main.py
 
 ## 🔑 Admin Credentials
