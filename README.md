@@ -45,9 +45,9 @@ python main.py
 
 ### 🔑 Admin Credentials
 
-Username: admin
-Password: admin123
-You can change this in auth.py.
+- Username: admin
+- Password: admin123
+- You can change this in auth.py.
 
 ### 📤 Export Functions
 
